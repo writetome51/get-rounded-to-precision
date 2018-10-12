@@ -1,0 +1,20 @@
+{
+  "name": "@writetome51/get-rounded-to-precision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "numbers",
+    "sorting"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "dependencies": {
+    "basic-data-handling": "latest",
+    "@writetome51/get-with-decimal-shifted": "latest",
+    "@writetome51/get-cautiously-rounded": "latest"
+  }
+}
