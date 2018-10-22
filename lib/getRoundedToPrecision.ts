@@ -1,7 +1,7 @@
 import { errorIfNotInteger } from 'basic-data-handling/errorIfNotInteger';
 import { errorIfNotNumber } from 'basic-data-handling/errorIfNotNumber';
-import { getCautiouslyRounded } from '@writetome51/get-cautiously-rounded/getCautiouslyRounded';
-import { getWithDecimalShifted } from '@writetome51/get-with-decimal-shifted/getWithDecimalShifted';
+import { getCautiouslyRounded } from '@writetome51/get-cautiously-rounded';
+import { getWithDecimalShifted } from '@writetome51/get-with-decimal-shifted';
 
 
 // numDigitsToRoundTo refers to number of places to right or left of decimal that it should round to. 
