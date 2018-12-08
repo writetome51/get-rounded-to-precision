@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-rounded-to-precision",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rounds number to specific number of digits before or after decimal",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,8 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
-    "basic-data-handling": "latest",
-    "@writetome51/get-with-decimal-shifted": "latest",
-    "@writetome51/get-cautiously-rounded": "latest"
+    "basic-data-handling": "~1.0.13",
+    "@writetome51/get-with-decimal-shifted": "~1.0.2",
+    "@writetome51/get-cautiously-rounded": "~1.0.5"
   }
 }
