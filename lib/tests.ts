@@ -18,4 +18,3 @@ console.log(getRoundedToPrecision(123.19955, 4)); // 123.1996
 console.log(getRoundedToPrecision(123.1288545, 6)); // 123.128854
 
 console.log(getRoundedToPrecision(123.1288555, 6)); // 123.128856
-

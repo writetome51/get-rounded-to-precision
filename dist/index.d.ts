@@ -1,1 +1,4 @@
-export declare function getRoundedToPrecision(numberToRound: any, positionRelativeToDecimal: any): number;
+export declare function getRoundedToPrecision(
+	numberToRound: number,
+	positionRelativeToDecimal: number
+): number;
