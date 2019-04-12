@@ -1,5 +1,5 @@
-import { errorIfNotInteger } from 'basic-data-handling/errorIfNotInteger';
-import { errorIfNotNumber } from 'basic-data-handling/errorIfNotNumber';
+import { errorIfNotInteger } from 'error-if-not-integer';
+import { errorIfNotFiniteNumber } from 'error-if-not-finite-number';
 import { getCautiouslyRounded } from '@writetome51/get-cautiously-rounded';
 import { getWithDecimalShifted } from '@writetome51/get-with-decimal-shifted';
 
@@ -10,7 +10,7 @@ import { getWithDecimalShifted } from '@writetome51/get-with-decimal-shifted';
 // Example:  getRoundedToPrecision(12.19955, 4); // returns 12.1996
 
 export function getRoundedToPrecision(numberToRound, positionRelativeToDecimal) {
-	errorIfNotNumber(numberToRound);
+	errorIfNotFiniteNumber(numberToRound);
 	errorIfNotInteger(positionRelativeToDecimal);
 
 	let numberWithDecimalShifted = getWithDecimalShifted(numberToRound, positionRelativeToDecimal);
