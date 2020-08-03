@@ -1,4 +1,4 @@
-# getRoundedToPrecision(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;positionRelativeToDecimal<br>): number
+# getRoundedToPrecision(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;num,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;positionRelativeToDecimal: integer<br>): number
 
 Returns `num` rounded to `positionRelativeToDecimal`.    
 To round to a position on the left of the decimal, set it to a negative number.  
@@ -20,7 +20,8 @@ getRoundedToPrecision(123.19955, 4); // --> 123.1996
 
 getRoundedToPrecision(1.8545, 3); // --> 1.854
 
-getRoundedToPrecision(1.8555, 3); // --> 1.856
+// if `num` is integer, it returns `num` unchanged.
+getRoundedToPrecision(1, 2); // -->  1
 ```
 
 ## Installation
