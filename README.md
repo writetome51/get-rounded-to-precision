@@ -7,7 +7,7 @@ Its algorithm prevents cumulative rounding errors.
 
 
 ## Examples
-```
+```js
 getRoundedToPrecision(123.1, -2); // --> 100
 
 getRoundedToPrecision(123.1, -1); // --> 120
@@ -27,11 +27,6 @@ getRoundedToPrecision(1.8555, 3); // --> 1.856
 `npm i @writetome51/get-rounded-to-precision`
 
 ## Loading
-```
-// if using TypeScript:
+```js
 import {getRoundedToPrecision} from '@writetome51/get-rounded-to-precision';
-
-// if using ES5 JavaScript:
-var getRoundedToPrecision = 
-    require('@writetome51/get-rounded-to-precision').getRoundedToPrecision;
 ```

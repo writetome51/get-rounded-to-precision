@@ -1,7 +1,8 @@
 {
   "name": "@writetome51/get-rounded-to-precision",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Rounds number to specific number of digits before or after decimal",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -27,9 +28,9 @@
   "author": "Steve Thompson",
   "license": "MIT",
   "dependencies": {
-    "error-if-not-finite-number": "~1.0.0",
-    "error-if-not-integer": "~1.0.0",
-    "@writetome51/get-with-decimal-shifted": "~2.0.0",
-    "@writetome51/get-cautiously-rounded": "~1.0.6"
+    "error-if-not-finite-number": "^2.0.0",
+    "error-if-not-integer": "^2.0.0",
+    "@writetome51/get-with-decimal-shifted": "^3.0.0",
+    "@writetome51/get-cautiously-rounded": "^2.0.0"
   }
 }
